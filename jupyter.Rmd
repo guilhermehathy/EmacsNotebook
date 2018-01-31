@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Jupyter
+# Jupyter Notebook
 
 Continuando o tema abordado pelo Professor Fernando Mayer no ultimo
 [post](http://blog.leg.ufpr.br/archives/363). Hoje aboraremos o uso
@@ -18,7 +18,7 @@ Emacs.
 
 ## Mas afinal, o que é um Jupyter Notebook?
 
-Muitos alunos do curso de Estatística estão familiarizado com a
+Muitos dos alunos do curso de Estatística estão familiarizado com a
 utilização do RMarkdown para a elaboração de trabalhos acadêmicos e
 de forma bem simplificada o Jupyter Notebook faz o mesmo trabalho,
 integrando código e texto, assim facilitando a escrita de textos
@@ -45,7 +45,9 @@ Após a execução, o seu navegador padrão abrirá na seguinte tela:
 
 ![](img/jupyter.png)
 
-Para maiores informações de como usar o Jupyter veja esse
+<br/><br/>
+
+Para maiores informações de como utilizar o Jupyter veja esse
 [link](http://jupyter.org/documentation).
 
 ## Instalando o EIN -- Emacs IPython Notebook
@@ -114,8 +116,7 @@ C-x C-w
 ## Principais Atalhos
 
 Separei alguns dos principais atalhos para a utilização do pacote Ein,
-a lista completa pode ser acessada no [link](https://tkf.github.io/emacs
--ipython-notebook/#commands-keybinds).
+a lista completa pode ser acessada no [link](https://tkf.github.io/emacs-ipython-notebook/#commands-keybinds).
 
 - `C-c C-c` para executar a cell e permanecer nela.
 
