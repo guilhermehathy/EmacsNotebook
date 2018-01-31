@@ -86,3 +86,12 @@ abra seu `~/.emacs` e insira essas linhas para habilitar o pacote:
 ```
 
 Após inserir salve com <kbd>C-x C-s</kbd> e reinicie o Emacs.
+
+### Iniciando um Notebook no Emacs
+
+Após a instalação do pacote Ein, podemos começar à utilizar o Jupyter Notebook integrado com o Emacs.
+Para começar devemos iniciar um servidor do Jupyter no nosso computador. Para isso abrimos o nosso Emacs e utilizaremos o comando `M-x ein:jupyter-server-start`, em seguida devemos colocar o local no qual esta instalado o Jupyter `Server Command: /usr/local/bin/jupyter` (Pasta padrão no Ubuntu) e por ultimo colocaremos o caminho para a pasta que queremos iniciar o Jupyter Notebook.
+
+Se tudo ocorrer sem erro, o Emacs abrirar uma janela para a administração dos notebooks.
+
+![](img/emacs.png)
