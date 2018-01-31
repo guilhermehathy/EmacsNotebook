@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Continuando o tema abordado pelo Professor Fernando Mayer no ultimo
 [post](http://blog.leg.ufpr.br/archives/363). Hoje aboraremos o uso
-do Jupyter, mais expecificamente a junção do Jupyter Notebook com o
+do Jupyter, mais especificamente a junção do Jupyter Notebook com o
 Emacs.
 
 ## Mas afinal, o que é um Jupyter Notebook?
@@ -35,7 +35,7 @@ utilizando o pip como instalador).
 sudo pip3 install -U jupyter
 ```
 
-Para abrir um Jupyter Notebook basta rodar o seguinte codigo no
+Para abrir um Jupyter Notebook basta rodar o seguinte código no
 terminal. 
 
 ``` {sh, eval=FALSE}
@@ -56,7 +56,7 @@ Para utilizar o Jupyter Notebook no Emacs utilizaremos o pacote
 A principal motivação para rodar o Jupyter no emacs é a utilização de
 atalhos e ferramentas do proprio Emacs. Eu por exemplo costumo utilizar
 muito o pacote [multiple-cursors](https://github.com/magnars/multiple-cursors.el),
-que permite a edição de varias linhas do nosso codigo ao mesmo tempo.
+que permite a edição de varias linhas do nosso código ao mesmo tempo.
 
 A instalação do Ein deve ser feita através do MELPA (que é o
 procedimento padrão para se instalar qualquer pacote no Emacs). Para
